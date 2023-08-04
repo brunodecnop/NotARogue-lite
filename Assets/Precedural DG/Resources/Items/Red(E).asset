@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9529ae2b2ee0d1e4d802b51d271424c3, type: 3}
+  m_Name: Red(E)
+  m_EditorClassIdentifier: 
+  ItemID: Red(E)
+  TargetInventoryName: MainInventory
+  ForceSlotIndex: 0
+  TargetIndex: 0
+  Usable: 0
+  Consumable: 1
+  ConsumeQuantity: 1
+  Equippable: 1
+  MoveWhenEquipped: 1
+  Droppable: 1
+  CanMoveObject: 1
+  CanSwapObject: 1
+  Quantity: 1
+  ItemName: Red(E)
+  ShortDescription: 
+  Description: 
+  NextRarity: {fileID: 11400000, guid: 82cf80a2b534a394c9007c48b6eda7e9, type: 2}
+  dropDown: 3
+  Icon: {fileID: -735918451, guid: 80ac00ace3d7e9241b3ae7d964c8d22f, type: 3}
+  Prefab: {fileID: 4618214954909941202, guid: cfd37bf95a6778048a98f220586f145d, type: 3}
+  DropProperties:
+    Shape: 0
+    NormalToSpawnPlane: {x: 0, y: 1, z: 0}
+    MinimumSphereRadius: 25
+    MaximumSphereRadius: 25
+    MinimumCubeBaseSize: {x: 1, y: 1, z: 1}
+    MaximumCubeBaseSize: {x: 2, y: 2, z: 2}
+    MinimumNormalAxisOffset: 0
+    MaximumNormalAxisOffset: 0
+    UseNormalAxisOffsetCurve: 0
+    NormalOffsetCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    NormalOffsetCurveRemapZero: 0
+    NormalOffsetCurveRemapOne: 1
+    InvertNormalOffsetCurve: 0
+    MinimumRotation: {x: 0, y: 0, z: 0}
+    MaximumRotation: {x: 0, y: 0, z: 0}
+    MinimumScale: {x: 40, y: 40, z: 1}
+    MaximumScale: {x: 40, y: 40, z: 1}
+  MaximumStack: 1
+  ItemClass: 2
+  TargetEquipmentInventoryName: Ranged Weapon Inventory
+  TargetSecondaryEquipmentInventoryName: Ranged Weapon Inventory 2
+  EquippedSound: {fileID: 0}
+  UsedSound: {fileID: 0}
+  MovedSound: {fileID: 0}
+  DroppedSound: {fileID: 0}
+  UseDefaultSoundsIfNull: 1
+  UsedInventory: 
+  DestrezaMin: 20
+  DestrezaMax: 25
+  CritChanceMin: 20
+  CritChanceMax: 25
+  CritDamageMin: 20
+  CritDamageMax: 25
+  HPMin: 31
+  HPMax: 36
+  EquippableWeapon: {fileID: 6719538570484381277, guid: 6747361379c03f2478108fb7752dc432,
+    type: 3}
+  AutoEquipMode: 0
+  HandleWeaponID: 1
+  SecondaryHandleWeaponID: 2
+  UsedHandleWeaponID: 0
