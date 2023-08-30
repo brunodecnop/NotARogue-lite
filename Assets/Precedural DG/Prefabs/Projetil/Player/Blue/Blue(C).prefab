@@ -5111,12 +5111,11 @@ MonoBehaviour:
   TargetLayerMask:
     serializedVersion: 2
     m_Bits: 16785664
-  BaseDamage: 15
   DamageCaused: 15
   DamageCausedKnockbackType: 0
   DamageCausedKnockbackDirection: 0
   DamageCausedKnockbackForce: {x: 400, y: 0, z: 0}
-  InvincibilityDuration: 0.1
+  InvincibilityDuration: 2
   DamageTakenEveryTime: 1
   DamageTakenDamageable: 1
   DamageTakenNonDamageable: 1

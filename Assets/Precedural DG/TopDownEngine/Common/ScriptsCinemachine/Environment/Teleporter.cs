@@ -175,16 +175,19 @@ namespace MoreMountains.TopDownEngine
 	    /// <param name="collider">Collider.</param>
 	    protected override void TriggerEnter(GameObject collider)
         {
+
+            //Debug.Log("Triggered TP");
             // if the object that collides with the teleporter is on its ignore list, we do nothing and exit.
             if (_ignoreList.Contains(collider.transform))
 			{
 				return;
 			}
-
+           // Debug.Log("First if OK");
             _characterTester = collider.GetComponent<Character>();
 
             if (_characterTester != null)
 			{
+                Debug.Log("ct not null");
                 if (RequiresPlayerType)
                 {
                     if (_characterTester.CharacterType != Character.CharacterTypes.Player)
@@ -192,8 +195,8 @@ namespace MoreMountains.TopDownEngine
                         return;
                     }
                 }
-
-				_player = _characterTester;
+                Debug.Log("Second if OK");
+                _player = _characterTester;
                 _characterGridMovement = _player.GetComponent<CharacterGridMovement>();
 			}
             
@@ -226,6 +229,7 @@ namespace MoreMountains.TopDownEngine
 		/// </summary>
 		protected virtual void Teleport(GameObject collider)
 		{
+            Debug.Log("Started TP");
             _entryPosition = collider.transform.position;
             // if the teleporter has a destination, we move the colliding object to that destination
             if (Destination != null)

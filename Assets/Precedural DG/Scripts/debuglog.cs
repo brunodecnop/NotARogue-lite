@@ -10,4 +10,9 @@ public class debuglog : MonoBehaviour
         Debug.Log(roominstance.gridPos);
         Debug.Log(this.name);
     }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("tP");
+    }
 }
