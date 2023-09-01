@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9529ae2b2ee0d1e4d802b51d271424c3, type: 3}
+  m_Script: {fileID: 11500000, guid: d8c7f3ee308ee0c45ac057f66001a274, type: 3}
   m_Name: Orange(C)
   m_EditorClassIdentifier: 
   ItemID: Orange(C)
@@ -29,6 +29,7 @@ MonoBehaviour:
   ShortDescription: 
   Description: 
   NextRarity: {fileID: 11400000, guid: 3ce971598bbbe5546a7fbdfd9b432596, type: 2}
+  dropDown: 0
   Icon: {fileID: 1762672803, guid: 0ebab5da1b69f1c44b5f8c3b36f3d391, type: 3}
   Prefab: {fileID: 4618214954909941202, guid: 43136c5590855ef408157269cb7882c3, type: 3}
   DropProperties:
@@ -82,6 +83,11 @@ MonoBehaviour:
   DroppedSound: {fileID: 0}
   UseDefaultSoundsIfNull: 1
   UsedInventory: 
+  Magic: 0
+  Power: 0
+  HP: 0
+  CritChance: 0
+  CritDamage: 0
   DestrezaMin: 6
   DestrezaMax: 12
   CritChanceMin: 6
@@ -96,3 +102,4 @@ MonoBehaviour:
   HandleWeaponID: 1
   SecondaryHandleWeaponID: 2
   UsedHandleWeaponID: 0
+  vida: {fileID: 0}

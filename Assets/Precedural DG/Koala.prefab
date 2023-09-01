@@ -10324,7 +10324,7 @@ MonoBehaviour:
   Invulnerable: 0
   InitialHealth: 100
   MaximumHealth: 100
-  ImmuneToDamage: 1
+  ImmuneToDamage: 0
   ImmuneToKnockback: 0
   DamageMMFeedbacks: {fileID: 5423255612875023378}
   FeedbackIsProportionalToDamage: 0

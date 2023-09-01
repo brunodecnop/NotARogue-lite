@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 0
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9529ae2b2ee0d1e4d802b51d271424c3, type: 3}
+  m_Script: {fileID: 11500000, guid: d8c7f3ee308ee0c45ac057f66001a274, type: 3}
   m_Name: Green(C)
   m_EditorClassIdentifier: 
   ItemID: Green(C)
@@ -29,6 +29,7 @@ MonoBehaviour:
   ShortDescription: 
   Description: 
   NextRarity: {fileID: 11400000, guid: 8c560f5361700d54088e0903b526d342, type: 2}
+  dropDown: 0
   Icon: {fileID: -143769660, guid: 75df1bb8b302ceb4a9230d70d1b2e97e, type: 3}
   Prefab: {fileID: 4618214954909941202, guid: 685d8a862f93cc2429294ceb0e8afbfd, type: 3}
   DropProperties:
@@ -82,6 +83,11 @@ MonoBehaviour:
   DroppedSound: {fileID: 0}
   UseDefaultSoundsIfNull: 1
   UsedInventory: 
+  Magic: 0
+  Power: 0
+  HP: 0
+  CritChance: 0
+  CritDamage: 0
   DestrezaMin: 5
   DestrezaMax: 10
   CritChanceMin: 5
@@ -96,3 +102,4 @@ MonoBehaviour:
   HandleWeaponID: 1
   SecondaryHandleWeaponID: 2
   UsedHandleWeaponID: 0
+  vida: {fileID: 0}

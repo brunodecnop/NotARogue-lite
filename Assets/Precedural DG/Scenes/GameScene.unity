@@ -4513,7 +4513,7 @@ MonoBehaviour:
   ToggleInventoryAltKey: 356
   CancelKey: 27
   CancelKeyAlt: 357
-  MoveKey: insert
+  MoveKey: c
   MoveAltKey: joystick button 2
   EquipKey: home
   EquipAltKey: home
@@ -6209,7 +6209,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
+  m_SortingLayerID: 961700441
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1281148533

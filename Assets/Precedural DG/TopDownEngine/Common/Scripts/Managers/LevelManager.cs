@@ -119,6 +119,8 @@ namespace MoreMountains.TopDownEngine
         protected virtual void Start()
         {
             BoundsCollider = _collider;
+            var aux = GameObject.Find("Koala");
+            if (aux != null) Destroy(GameObject.Find("Koala"));
             InstantiatePlayableCharacters();
 
             if (UseLevelBounds)
