@@ -4758,9 +4758,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.15223122, y: -0.08698877}
+  m_Offset: {x: 0.08675499, y: -0.1961155}
   serializedVersion: 2
-  m_Radius: 4.8277164
+  m_Radius: 2.5578673
 --- !u!114 &7059025392662531927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4776,7 +4776,6 @@ MonoBehaviour:
   TargetLayerMask:
     serializedVersion: 2
     m_Bits: 16786432
-  BaseDamage: 40
   DamageCaused: 40
   DamageCausedKnockbackType: 0
   DamageCausedKnockbackDirection: 0

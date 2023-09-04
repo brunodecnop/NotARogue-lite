@@ -372,6 +372,7 @@ namespace MoreMountains.TopDownEngine
 
         public void IncreaseMoney(int x) {
             Money += x;
+            print("IncreaseMoney");
         }
 
         public void DecreaseMoney(int x) {

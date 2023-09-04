@@ -154,11 +154,18 @@ public class ItemExtension : InventoryWeapon
 	public void Awake()
 	{
 		vida = GameObject.Find("Koala").GetComponent<Health>();
+		RandomizaAtributos(this);
 	}
 
 	public void TrocaAtributo(InventoryItem item)
 	{
 
+
+		Debug.Log("ItemPower=" + item.Power);
+		Debug.Log("ItemDest=" + item.Magic);
+		Debug.Log("ItemHP=" + item.HP);
+		Debug.Log("ItemCritChance=" + item.CritChance);
+		Debug.Log("ItemCritDamage=" + item.CritDamage);
 
 		Atributos.power += item.Power;
 		Atributos.Dest += item.Magic;

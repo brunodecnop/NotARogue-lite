@@ -496,7 +496,6 @@ MonoBehaviour:
   CurrentHealth: 100
   Invulnerable: 0
   InitialHealth: 50
-  BaseHealth: 50
   MaximumHealth: 50
   ImmuneToDamage: 0
   ImmuneToKnockback: 0

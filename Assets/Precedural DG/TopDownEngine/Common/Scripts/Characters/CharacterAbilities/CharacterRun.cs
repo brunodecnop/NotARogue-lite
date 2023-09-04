@@ -110,7 +110,7 @@ namespace MoreMountains.TopDownEngine
 		public virtual void RunStart()
 		{		
 			if ( !AbilityAuthorized // if the ability is not permitted
-				|| (!_controller.Grounded) // or if we're not grounded
+				//|| (!_controller.Grounded) // or if we're not grounded
 				|| (_condition.CurrentState != CharacterStates.CharacterConditions.Normal) // or if we're not in normal conditions
 				|| (_movement.CurrentState != CharacterStates.MovementStates.Walking) ) // or if we're not walking
 			{

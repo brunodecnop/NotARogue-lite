@@ -1540,7 +1540,7 @@ MonoBehaviour:
   TargetTransform: {fileID: 4001341059962208, guid: a200a0b4274de1d4da0e68119fadcbbb,
     type: 3}
   Persistent: 1
-  ResetThisInventorySaveOnStart: 0
+  ResetThisInventorySaveOnStart: 1
   DrawContentInInspector: 0
 --- !u!1 &293371394
 GameObject:
@@ -2240,7 +2240,7 @@ MonoBehaviour:
   TargetTransform: {fileID: 4001341059962208, guid: a200a0b4274de1d4da0e68119fadcbbb,
     type: 3}
   Persistent: 1
-  ResetThisInventorySaveOnStart: 0
+  ResetThisInventorySaveOnStart: 1
   DrawContentInInspector: 0
 --- !u!1 &571476743
 GameObject:
@@ -4513,10 +4513,10 @@ MonoBehaviour:
   ToggleInventoryAltKey: 356
   CancelKey: 27
   CancelKeyAlt: 357
-  MoveKey: c
+  MoveKey: /
   MoveAltKey: joystick button 2
   EquipKey: home
-  EquipAltKey: home
+  EquipAltKey: c
   UseKey: end
   UseAltKey: end
   EquipOrUseKey: space
@@ -5849,7 +5849,7 @@ MonoBehaviour:
   TargetTransform: {fileID: 4001341059962208, guid: a200a0b4274de1d4da0e68119fadcbbb,
     type: 3}
   Persistent: 1
-  ResetThisInventorySaveOnStart: 0
+  ResetThisInventorySaveOnStart: 1
   DrawContentInInspector: 0
 --- !u!1 &1174894875
 GameObject:
@@ -6148,7 +6148,7 @@ MonoBehaviour:
   TargetTransform: {fileID: 4001341059962208, guid: a200a0b4274de1d4da0e68119fadcbbb,
     type: 3}
   Persistent: 1
-  ResetThisInventorySaveOnStart: 0
+  ResetThisInventorySaveOnStart: 1
   DrawContentInInspector: 0
 --- !u!1 &1281148530
 GameObject:
@@ -8542,7 +8542,7 @@ MonoBehaviour:
   TargetTransform: {fileID: 4001341059962208, guid: a200a0b4274de1d4da0e68119fadcbbb,
     type: 3}
   Persistent: 1
-  ResetThisInventorySaveOnStart: 0
+  ResetThisInventorySaveOnStart: 1
   DrawContentInInspector: 0
 --- !u!1 &1759502544
 GameObject:
@@ -10754,7 +10754,7 @@ MonoBehaviour:
   TargetTransform: {fileID: 4001341059962208, guid: a200a0b4274de1d4da0e68119fadcbbb,
     type: 3}
   Persistent: 1
-  ResetThisInventorySaveOnStart: 0
+  ResetThisInventorySaveOnStart: 1
   DrawContentInInspector: 0
 --- !u!1 &2113419948
 GameObject:

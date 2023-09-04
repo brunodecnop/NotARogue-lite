@@ -25,7 +25,7 @@ public class RoomInstance : MonoBehaviour {
 		doorRight = _doorRight;
 		MakeDoors();
 		GenerateRoomTiles();
-		print(gridPos);
+		//print(gridPos);
 	}
 	void MakeDoors(){
 		//top door, get position then spawn
@@ -69,9 +69,8 @@ public class RoomInstance : MonoBehaviour {
 				Vector3 spawnPos = positionFromTileGrid(x,y);
 				Instantiate(mapping.prefab, spawnPos, Quaternion.identity).transform.parent = this.transform;
 			}else{
-				//forgot to remove the old print for the tutorial lol so I'll leave it here too
-				if(x==28 && y ==9)
-				print(mapping.color + ", " + pixelColor + x + ", " + y);
+				//if(x==28 && y ==9)
+				//print(mapping.color + ", " + pixelColor + x + ", " + y);
 			}
 		}
 	}

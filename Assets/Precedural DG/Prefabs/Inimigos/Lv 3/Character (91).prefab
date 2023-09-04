@@ -255,6 +255,7 @@ GameObject:
   - component: {fileID: 5353204222325283093}
   - component: {fileID: -7884739361316493973}
   - component: {fileID: -7790307441586069569}
+  - component: {fileID: 636714862058119632}
   m_Layer: 13
   m_Name: Character (91)
   m_TagString: Untagged
@@ -625,7 +626,6 @@ MonoBehaviour:
   CurrentHealth: 100
   Invulnerable: 0
   InitialHealth: 30
-  BaseHealth: 30
   MaximumHealth: 100
   ImmuneToDamage: 0
   ImmuneToKnockback: 0
@@ -700,6 +700,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   States:
+  - StateName: Start
+    Actions:
+      array: []
+    Transitions:
+      array:
+      - Decision: {fileID: 636714862058119632}
+        TrueState: Detect
+        FalseState: 
   - StateName: Detect
     Actions:
       array: []
@@ -830,6 +838,21 @@ MonoBehaviour:
   MaximumBufferDuration: 0.25
   RequiresPerfectTile: 0
   CurrentWeapon: {fileID: 0}
+--- !u!114 &636714862058119632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6386461652087588832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a21818f4def5bf646bec3d25770336cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: 
+  AfterTimeMin: 1
+  AfterTimeMax: 1
 --- !u!1 &6386461652108747117
 GameObject:
   m_ObjectHideFlags: 0

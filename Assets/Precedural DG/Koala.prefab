@@ -4849,7 +4849,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1186096418679244}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.399, y: -0.196, z: 0}
+  m_LocalPosition: {x: -0.001, y: -0.196, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10142,7 +10142,7 @@ MonoBehaviour:
   CanPickupWeapons: 1
   WeaponUseFeedback: {fileID: 0}
   WeaponAttachment: {fileID: 4515663194721164}
-  ProjectileSpawn: {fileID: 0}
+  ProjectileSpawn: {fileID: 4515663194721164}
   AutomaticallyBindAnimator: 1
   AmmoDisplayID: 0
   AutoIK: 1
@@ -10177,8 +10177,8 @@ MonoBehaviour:
   InitialWeapon: {fileID: 0}
   CanPickupWeapons: 1
   WeaponUseFeedback: {fileID: 0}
-  WeaponAttachment: {fileID: 0}
-  ProjectileSpawn: {fileID: 0}
+  WeaponAttachment: {fileID: 4315474336313948}
+  ProjectileSpawn: {fileID: 4315474336313948}
   AutomaticallyBindAnimator: 1
   AmmoDisplayID: 0
   AutoIK: 1
@@ -15471,7 +15471,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865617948810876}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.1830001, y: -0.3099999, z: 0}
+  m_LocalPosition: {x: 0.001, y: -0.191, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

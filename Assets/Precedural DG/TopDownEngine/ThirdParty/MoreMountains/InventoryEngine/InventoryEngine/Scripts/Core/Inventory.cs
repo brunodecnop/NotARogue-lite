@@ -752,6 +752,7 @@ namespace MoreMountains.InventoryEngine
                     return;
                 }
                 // if this is a mono slot inventory, we prepare to swap
+
                 if (item.TargetEquipmentInventory(PlayerID).Content.Length == 1)
                 {
                     if (!InventoryItem.IsNull(item.TargetEquipmentInventory(PlayerID).Content[0]))
